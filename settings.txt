@@ -1,0 +1,5 @@
+blockLength 40
+row 20
+col 12
+mines 6
+mode true
