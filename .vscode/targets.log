@@ -5,12 +5,13 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Sat Oct 22 23:12:40 2022
+# Make data base, printed on Thu Dec 29 10:24:35 2022
 
 # Variables
 
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 RABBITMQ_BASE = C:\ProgramData\RabbitMQ
 # environment
@@ -42,9 +43,11 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10692_YLEGDAZXAOFETMID
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_9636_QIHUEWIJRFTBQVTS
 # environment
 ONEDRIVECOMMERCIAL = D:\Joel\OneDrive - csulb
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -56,7 +59,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\Joel\AppData\Roaming\Code\CachedData\d045a5eda657f4d7b676dedbfa7aab8207f8a075
+VSCODE_CODE_CACHE_PATH = C:\Users\Joel\AppData\Roaming\Code\CachedData\e8a3071ea4344d9d48ef8a4df2c097372b0c5161
 # environment
 LANG = C
 # default
@@ -92,7 +95,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 10692
+VSCODE_PID = 9636
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -169,8 +172,6 @@ USERDOMAIN = DESKTOP-CC2GQSO
 GNUMAKEFLAGS := 
 # environment
 OS = Windows_NT
-# environment
-__COMPAT_LAYER = DetectorsAppHealth
 # makefile
 .DEFAULT_GOAL := all
 # default
@@ -183,6 +184,8 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-CC2GQSO
 NUMBER_OF_PROCESSORS = 8
 # environment
 PUBLIC = C:\Users\Public
+# environment
+ASL.LOG = Destination=file
 # environment
 APPDATA = C:\Users\Joel\AppData\Roaming
 # environment
@@ -198,10 +201,9 @@ COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-TEMP = C:\Users\Joel\AppData 
-\Local\Temp
+TEMP = C:\Users\Joel\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\b746cc3fc41d8915bea4c05e9b318066-1.72.2-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\b746cc3fc41d8915bea4c05e9b318066-1.74.2-main-sock
 # environment
 GOOGLE_DEFAULT_CLIENT_SECRET = no
 # default
@@ -221,7 +223,7 @@ PROCESSOR_REVISION = 5e03
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 94 Stepping 3, GenuineIntel
 # variable set hash-table stats:
-# Load=104/1024=10%, Rehash=0, Collisions=8/134=6%
+# Load=106/1024=10%, Rehash=0, Collisions=9/136=7%
 
 # Pattern-specific Variable Values
 
@@ -229,7 +231,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 94 Stepping 3, GenuineIntel
 
 # Directories
 
-# . (key d:/Users/Joel/Documents/C++/Minesweeper, mtime 1664760816): 19 files, no impossibilities.
+# . (key d:/Users/Joel/Documents/C++/Minesweeper, mtime 1666505487): 19 files, no impossibilities.
 
 # 19 files, no impossibilities in 1 directories.
 
@@ -242,7 +244,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 94 Stepping 3, GenuineIntel
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-24 02:59:34
+#  Last modified 2022-10-22 23:11:25
 #  File has been updated.
 #  Successfully updated.
 
@@ -300,6 +302,6 @@ all:
 # strcache performance: lookups = 29 / hit rate = 24%
 # hash-table stats:
 # Load=22/8192=0%, Rehash=0, Collisions=0/29=0%
-# Finished Make data base on Sat Oct 22 23:12:40 2022
+# Finished Make data base on Thu Dec 29 10:24:35 2022
 
  

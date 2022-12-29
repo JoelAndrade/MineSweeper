@@ -319,7 +319,7 @@ void drawCustomMenu(bool hold, bool rowRightSpot, bool colRightSpot, bool minesR
 
     SDL_RenderClear(window.renderer);
     customMenuImage.render(window.renderer);
-    playButton.render(window.renderer);
+    SDL_RenderCopy(window.renderer, playButton.texture, NULL, &applyButton.newRect);
     backButton.render(window.renderer);
 
     coveredBlock.newRect.x = rowRect.x;
@@ -341,7 +341,7 @@ void drawCustomMenu(bool hold, bool rowRightSpot, bool colRightSpot, bool minesR
     coveredBlock.render(window.renderer);
 
     if (hold == SDL_PRESSED && (playButton.newRect.leftX - 7 < xPos && xPos < playButton.newRect.rightX + 7) && (playButton.newRect.topY - 7 < yPos && yPos < playButton.newRect.bottomY + 7) && playRightSpot) {
-        SDL_RenderCopy(window.renderer, pressedPlay.texture, NULL, &playButton.newRect);
+        SDL_RenderCopy(window.renderer, pressedPlay.texture, NULL, &applyButton.newRect);
     }
     if (hold == SDL_PRESSED && (backButton.newRect.leftX - 7 < xPos && xPos < backButton.newRect.rightX + 7) && (backButton.newRect.topY - 7 < yPos && yPos < backButton.newRect.bottomY + 7) && backRightSpot) {
         SDL_RenderCopy(window.renderer, pressedBack.texture, NULL, &backButton.newRect);
