@@ -935,7 +935,6 @@ int customMenu() {
                     if (rowRightSpot && rowValText.text.length() > 0) {
                         rowValText.text.pop_back();
                         rowValText.createTexture(window.renderer);
-                        
                     }
                     else if(colRightSpot && colValText.text.length() > 0) {
                         colValText.text.pop_back();

@@ -6,7 +6,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Dec 29 10:24:35 2022
+# Make data base, printed on Fri Dec 30 18:20:16 2022
 
 # Variables
 
@@ -43,7 +43,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_9636_QIHUEWIJRFTBQVTS
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_14556_YCYAYGUVSIBBLFFV
 # environment
 ONEDRIVECOMMERCIAL = D:\Joel\OneDrive - csulb
 # environment
@@ -95,7 +95,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 9636
+VSCODE_PID = 14556
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -231,7 +231,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 94 Stepping 3, GenuineIntel
 
 # Directories
 
-# . (key d:/Users/Joel/Documents/C++/Minesweeper, mtime 1666505487): 19 files, no impossibilities.
+# . (key d:/Users/Joel/Documents/C++/Minesweeper, mtime 1672444000): 19 files, no impossibilities.
 
 # 19 files, no impossibilities in 1 directories.
 
@@ -302,6 +302,6 @@ all:
 # strcache performance: lookups = 29 / hit rate = 24%
 # hash-table stats:
 # Load=22/8192=0%, Rehash=0, Collisions=0/29=0%
-# Finished Make data base on Thu Dec 29 10:24:35 2022
+# Finished Make data base on Fri Dec 30 18:20:16 2022
 
  
